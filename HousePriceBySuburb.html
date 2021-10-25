@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Distance Group</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!--CSS Link-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" style="background-color:pink" href="index.html">House Price in Melbourne</a>
+        <button class="navbar-toggler  border border-white" type="button" data-toggle="collapse"
+            data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Plots
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item active" href="HousePriceBySuburb.html">House Price By Suburb</a>
+                        <a class="dropdown-item" href="Top10BySuburb.html">Top 10 House Price By Suburb</a>
+                        <a class="dropdown-item" href="Top20BySuburbType.html">Top 20 House Price By Suburb & Type</a>
+                        <a class="dropdown-item" href="Top20BySuburbYear.html">Top 20 House Price By Suburb & Year</a>
+                        <a class="dropdown-item" href="DistanceGroup.html">House Price By Distance Group</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="comparisons.html">Comparison</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="data.html">Data</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7 col-md-12">
+                <!-- Left box  -->
+                <div class="box">
+                    <h3 class="title">House Price By Suburb</h3>
+                    <hr>
+                    <img src="Resources/assets/images/Fig2.png" alt="House Price By Suburb Graph">
+                    <p>The correlation coefficient between house price and distance from CBD is -0.46 that shows a weak negative relationship between these values.
+                        .</p>
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-12">
+                <!-- Right Box -->
+                <div class="box">
+                    <h5 class="title">Visualizations</h5>
+                    <hr>
+                    <div class="container">
+                        <div class="row" style="padding-bottom: 30px;">
+                            <div class="col-6">
+                                <a href="HousePriceBySuburb.html">
+                                    <img class="panel" src="Resources/assets/images/Fig2.png"
+                                        alt="House Price By Suburb Image">
+                                </a>
+                            </div>
+                            <div class="col-6">
+                                <a href="DistanceGroup.html">
+                                    <img class="panel" src="Resources/assets/images/Fig1.png"
+                                        alt="Distance Group Image">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row" style="padding-bottom: 30px;">
+                            <div class="col-6">
+                                <a href="Top20BySuburbType.html">
+                                    <img class="panel" src="Resources/assets/images/Fig4.png"
+                                        alt="Top20BySuburbType Graph">
+                                </a>
+                            </div>
+                            <div class="col-6">
+                                <a href="Top20BySuburbYear.html">
+                                    <img class="panel" src="Resources/assets/images/Fig5.png"
+                                        alt="Top20BySuburbYear Graph">
+                                </a>
+                            </div>
+                            <div class="row" style="padding-bottom: 30px;">
+                                <div class="col-6">
+                                    <a href="Top10BySuburb.html">
+                                        <img class="panel" src="Resources/assets/images/Fig3.png"
+                                            alt="Top 10 By Suburb Graph">
+                                    </a>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer">Copyright &copy; Designed by Nasrin Dehghan</div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
